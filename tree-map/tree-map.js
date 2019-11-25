@@ -43,7 +43,7 @@ Tree.prototype.addChild = function(value) {
   }
  }
 
-  one(cb, this, root);
+  one(func, this, newTree);
 
   return root;
 }
